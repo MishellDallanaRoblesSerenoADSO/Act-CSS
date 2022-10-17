@@ -8,23 +8,17 @@
     <link rel="stylesheet"  type="text/css" href="estilo.css">
 </head>
 <body>
-    <button>Holi</button>
-    <h1>Selectores</h1>
-    <h3 class="h3">Tipos de selectores: </h3>
+    <h1 class="color" id="xd" style="color:blueviolet"> Especificidad</h1>
+    
+    <h3>Nivel de Jerarquia de las etiquetas</h3>
+    <li>!important</li>
+    <li>Estilos en linea (style)<li>
+    <li>Identificadores</li>
+    <li>Clases, pseudo clases y atributos</li>
+    <li> elementos, pseudo elementos</li>
 
-        <li> <b>* :</b> Selecciona todos los elementos </li>
-
-        <li> De tipo o etiqueta : Selecciona por el nombre de los elementos  </li>
-
-        <li class="h3"> Clases : Se le asigna una clase a cada elemento y se selecciona con un punto:     <b>.h3{}</b> </li>
-
-        <li id="modify"> <b>Id :</b> Se usa para identificar un elemento que no se repite, es decir un elemento unico y se selecciona con el #:     <b>#(nombre del id){}</b>  </li>
-
-        <li Cristiano="SIUUUUUUU"> <b>Por atributo:</b> composicion etiqueta HTML   Nombre de etiqueta, atributo = "valor del atributo". El atributo se selecciona con []: <b>[hola="21"]{}</b> </li>
-
-        <h4> <p> Descendiente:</p> Se selecciona primero al contenedor, luego al descendiente: <b> h2 p </b> </h4>
-
-        <li> <b> Pseudo clases:</b> Son los eventos de la seleccion. </li>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni, nihil consectetur ab eaque saepe maiores fuga porro minima provident! Maiores, aspernatur consequatur? Fugit eligendi, saepe voluptatibus qui cupiditate tenetur!</p>
+        <p> La especificidad ayuda a cambiar las propiedades sin afectar al resto.
+        Para ello hay que tener en cuenta la jerarquia de las etiquetas y dependiendo de ello se va tomar el elemento con mayor nivel en los cambios que se deseen realizar.
+        </p>
 </body>
 </html>

@@ -1,29 +1,12 @@
-*{
-    text-align: justify;
+#xd{
+    color: blue;
 }
-button{
-    color: #ab32de;
+.color{
+    color: #17b37f;
 }
-.h3{
-    color: #2a2be2;
+h1 {
+    color: #a52a2a;
 }
-#modify{
-    background-color: #222;
-    color: #fff;
-}
-[Cristiano="SIUUUUUUU"] {
-    color: #aa0909e6;
-}
-h4 p{
-    color: #ff08d2;
-}
-.h3 b{
-    background-color: #efff08ba;
-}
-li:hover {
-    background-color: #00ffff;
-}
-p:hover {
-    background-color: #bbf898;
-    font-family:cursive;
+h1 {
+    color: #eaea09fa !important;
 }
