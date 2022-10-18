@@ -1,12 +1,6 @@
-#xd{
-    color: blue;
+.form__input--active {
+    color: blueviolet;
 }
-.color{
-    color: #17b37f;
-}
-h1 {
-    color: #a52a2a;
-}
-h1 {
-    color: #eaea09fa !important;
+.form__input {
+    color: chartreuse;
 }
