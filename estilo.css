@@ -4,13 +4,20 @@
 }
 .xd{
     font-size: 25px;
-    background-color: #ddff009d;
-    width: 50vw;
-    height: 100vh;
+}
+.xd__h1 {
+    font-size: 2em ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+} 
+h1 {
+    background-color: #faff66;
+    color: #000000;
+}
+h2 {
+    font-size: 2em;
 }
 li b {
-    color: #a52a2a;
-}
-p {
-    font-size: 20px;
+    color: #aeb029;
 }
