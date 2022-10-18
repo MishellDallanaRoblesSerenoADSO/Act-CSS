@@ -1,23 +1,18 @@
 * {
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
+    font-family: 'Bubblegum Sans', cursiva;
 }
 .xd{
     font-size: 25px;
 }
 .xd__h1 {
     font-size: 2em ;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 2;
-    font-weight: 300;
-} 
+}
 h1 {
-    background-color: #faff66;
-    color: #000000;
-}
-h2 {
-    font-size: 2em;
-}
-li b {
-    color: #aeb029;
+    color: #d10b33;
+    font-weight: 900;
+} 
+p {
+    font-size: 20px;
 }
