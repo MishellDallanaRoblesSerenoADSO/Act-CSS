@@ -1,13 +1,13 @@
 * {
-    font-family: 'Bubblegum Sans', cursiva;}
-h1 {
-    color: #d10b33;
-    font-weight: 900;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 0px;
-} 
-ul {
-    padding: 25px , 30px, 40px, 50px;
+    font-weight: 100;
+    font-family: 'Bubblegum Sans', cursiva;
 }
+h1 {
+    color: #000000;
+    background-color: #d10b33;
+    padding: 20px, 50px;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+} 
