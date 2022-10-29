@@ -5,25 +5,32 @@
 h1 {
     color: #3e008e;
     padding-left: 15px;
+    margin-top: 10px;
 } 
 div {
-    width: 200px;
-    height: 200px;
-    background: #54c0ff;
-    margin: auto;
-    display: inline-block;
+    width: 120px;
+    height: 120px;
+    display: block;
 }
 .caja1{
-    outline: 5px solid rgb(14, 14, 66);
+    background-color: #54c0ff;
+    position: relative;
+    top: 40px;
 }
 .caja2{
-    outline: 5px solid blue;
+    background-color: coral;
+    position: relative;
+    left: 50px;
 }
-.caja3 {
-    outline: 5px solid rgb(0, 251, 255);
+.caja3{
+    background-color: deeppink;
+    position: relative;
+    bottom: 30px;
 }
 .caja4{
-    outline: 5px solid rgb(0, 124, 141);
+    background-color: gold;
+    position: relative;
+    left: 50px;
 }
 
 
