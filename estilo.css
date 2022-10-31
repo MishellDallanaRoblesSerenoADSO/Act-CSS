@@ -2,18 +2,34 @@
     font-family: 'Bubblegum Sans', cursiva;
     font-weight: 100;
     font-size: 40px;
-    background-color: rgb(243, 255, 251);
 }
 h1 {
     color: #680011d5;
 } 
-p{
-    width: 150px;
-    height: 200px;
-    margin: 20px;
-    border: 10px solid darkred;
-    background: rgb(255, 135, 135);
-    height: 400px;
+img{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 1600px;
+    position: relative;
+    top: 10px;
+    width: 600px;
+    height: 350px;
+    outline: 4px solid rgb(255, 0, 0);
+    transition: all 1.4s;
+}
+img:hover{
+    width: 1000px;
+    position: relative;
+    top: 0;
+    left: 0;
+    outline: 4px solid rgb(255, 0, 0);
+}
+div{
+    border: 4px solid rgb(0, 252, 76);
+    background-color: greenyellow;
+    margin: auto;
+    margin-top: 50px;
     width: 400px;
-    display: inline-block;
+    height: 350px;
+    overflow: scroll;
 }
