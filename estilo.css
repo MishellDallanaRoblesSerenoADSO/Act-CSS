@@ -5,11 +5,15 @@
     background-color: rgb(243, 255, 251);
 }
 h1 {
-    color: #00683fd5;
+    color: #680011d5;
 } 
-.caja-fixed{
-    background: aquamarine;
-    position: sticky;
-    opacity: 0.6;
-    top: 50px;
+p{
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border: 10px solid darkred;
+    background: rgb(255, 135, 135);
+    height: 400px;
+    width: 400px;
+    display: inline-block;
 }
