@@ -3,34 +3,26 @@
     font-family: 'Bubblegum Sans', cursiva;
 }
 h1 {
-    color: #3e008e;
+    color: #b781ff;
     padding-left: 15px;
     margin-top: 10px;
 } 
-div {
+div{
     width: 120px;
     height: 120px;
     display: block;
 }
 .caja1{
-    background-color: #54c0ff;
-    position: relative;
-    top: 40px;
+    background-color: #82ff8f;
 }
 .caja2{
-    background-color: coral;
-    position: relative;
-    left: 50px;
+    background-color: rgb(204, 136, 255);
 }
 .caja3{
-    background-color: deeppink;
-    position: relative;
-    bottom: 30px;
+    background-color: rgb(255, 35, 42);
 }
 .caja4{
-    background-color: gold;
-    position: relative;
-    left: 50px;
+    background-color: rgb(255, 149, 0);
 }
 
 
