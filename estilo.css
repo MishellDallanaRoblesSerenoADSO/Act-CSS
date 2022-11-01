@@ -6,8 +6,8 @@ h1 {
 } 
 .caja1{
     margin: 20px;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     display: flex;
 }
 .caja1 img{
@@ -15,4 +15,5 @@ h1 {
     width: 100%;
     border: 2px solid blue;
     object-fit: contain;
+    object-position: -3em;
 }
