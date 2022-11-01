@@ -1,19 +1,27 @@
 * {
     font-family: 'Stick No Bills', sans-serif;
+    background: rgb(183, 251, 255);
 }
 h1 {
-    color: #0217ffd5;
+    color: #004b55;
 } 
-.caja1{
-    margin: 20px;
-    width: 300px;
-    height: 300px;
-    display: flex;
+div{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(6, 203, 147);
+    background: rgb(184, 255, 243);
+    cursor: pointer;
+    display: inline-block;
 }
-.caja1 img{
-    height: 100%;
-    width: 100%;
-    border: 2px solid blue;
-    object-fit: contain;
-    object-position: -3em;
+.caja1:active{
+    cursor: wait;
+}.caja2{
+    cursor: crosshair;
+}
+.caja3{
+    cursor: e-resize;
+}
+.caja4{
+    cursor: help;
 }
