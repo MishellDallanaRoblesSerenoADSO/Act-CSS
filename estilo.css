@@ -1,24 +1,18 @@
 * {
     font-family: 'Stick No Bills', sans-serif;
-    font-weight: 100;
-    font-size: 40px;
 }
 h1 {
     color: #0217ffd5;
 } 
 .caja1{
-    height: 200px;
-    width: 200px;
-    background: rgb(0, 255, 170);
-    transition: all 0.6s;
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    display: flex;
 }
-.caja1:hover{
-    background: red;
-    height: 300px;
-    width: 300px;
-}
-.cajauno:link{
-    margin: 30px;
-    color: rgba(0, 96, 180, 0.742);
-    display: block;
+.caja1 img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid blue;
+    object-fit: contain;
 }
